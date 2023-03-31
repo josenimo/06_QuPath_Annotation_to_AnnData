@@ -1,0 +1,1 @@
+2023-03-31 10:59:10	3m 41s	reverent_shannon	OK	b9bd8cc3cba340d89ef8e6140fe2fe4abbad42ec	6c8c0c52-5cd0-4487-a72a-d54743ce9928	nextflow run labsyspharm/mcmicro --in . --start-at segmentation

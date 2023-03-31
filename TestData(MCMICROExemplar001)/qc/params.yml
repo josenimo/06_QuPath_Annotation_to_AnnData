@@ -1,0 +1,66 @@
+workflow:
+  start-at: segmentation
+  stop-at: quantification
+  qc-files: copy
+  tma: false
+  viz: false
+  background: false
+  multi-formats: '{.xdce,.nd,.scan,.htd}'
+  single-formats: '{.ome.tiff,.ome.tif,.rcpnl,.btf,.nd2,.tif,.czi}'
+  segmentation: unmicst
+  segmentation-recyze: false
+  downstream: scimap
+options:
+  ashlar: -m 30
+  cypository: --model zeisscyto
+  ilastik: --num_channels 1
+  mcquant: --masks cell*.tif
+  naivestates: -p png
+modules:
+  illumination:
+    name: basic
+    container: labsyspharm/basic-illumination
+    version: 1.1.1
+  registration:
+    name: ashlar
+    container: labsyspharm/ashlar
+    version: 1.17.0
+  dearray:
+    name: coreograph
+    container: labsyspharm/unetcoreograph
+    version: 2.2.9
+    cmd: python /app/UNetCoreograph.py --outputPath .
+    input: --imagePath
+  background:
+    name: backsub
+    container: ghcr.io/schapirolabor/background_subtraction
+    version: v0.3.3
+  segmentation:
+  - name: unmicst
+    container: labsyspharm/unmicst
+    version: 2.7.6
+    cmd: python /app/unmicstWrapper.py --stackOutput --outputPath .
+    input: ''
+    channel: --channel
+    idxbase: 1
+    watershed: 'yes'
+  watershed:
+    name: s3seg
+    container: labsyspharm/s3segmenter
+    version: 1.5.1
+    channel: --probMapChan
+    idxbase: 1
+  quantification:
+    name: mcquant
+    container: labsyspharm/quantification
+    version: 1.5.3
+  downstream:
+  - name: scimap
+    container: labsyspharm/scimap
+    version: 0.17.7
+    cmd: scimap-mcmicro -o .
+    input: ''
+  viz:
+    name: autominerva
+    container: ghcr.io/labsyspharm/mcmicro
+    version: auto-minerva-2023-03-11

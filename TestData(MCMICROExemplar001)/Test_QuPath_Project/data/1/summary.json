@@ -1,0 +1,1 @@
+{"timestamp":1680253802402,"imageType":"FLUORESCENCE","server":{"width":1833,"height":957,"sizeC":12,"sizeZ":1,"sizeT":1},"hierarchy":{"nObjects":8,"objectTypeCounts":{"Root objects":1,"Annotations":7},"annotationClassificationCounts":{"Ignore_from_analysis":1,"Epithelial_Cluster":3,"Immune_Cluster":3},"detectionClassificationCounts":{}}}

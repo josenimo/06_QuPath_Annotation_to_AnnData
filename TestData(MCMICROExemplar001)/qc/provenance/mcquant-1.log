@@ -1,0 +1,15 @@
+{'masks': ['cell.ome.tif'], 'image': 'Exemplar001_subset--unmicst.ome.tif', 'channel_names': 'markers.csv', 'output': '.', 'intensity_props': {'intensity_mean'}, 'mask_props': None}
+Extracting single-cell data for Exemplar001_subset--unmicst.ome.tif...
+Finished 0
+Finished 1
+Finished 2
+Finished 3
+Finished 4
+Finished 5
+Finished 6
+Finished 7
+Finished 8
+Finished 9
+Finished 10
+Finished 11
+Finished Exemplar001_subset--unmicst

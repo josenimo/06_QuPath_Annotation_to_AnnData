@@ -1,0 +1,109 @@
+Mar-31 10:59:04.261 [main] DEBUG nextflow.cli.Launcher - $> nextflow run labsyspharm/mcmicro --in . --start-at segmentation
+Mar-31 10:59:04.511 [main] INFO  nextflow.cli.CmdRun - N E X T F L O W  ~  version 22.10.3
+Mar-31 10:59:04.583 [main] DEBUG nextflow.plugin.PluginsFacade - Setting up plugin manager > mode=prod; embedded=false; plugins-dir=/home/josenimo/.nextflow/plugins; core-plugins: nf-amazon@1.11.1,nf-azure@0.14.2,nf-codecommit@0.1.2,nf-console@1.0.4,nf-ga4gh@1.0.4,nf-google@1.4.5,nf-tower@1.5.6,nf-wave@0.5.2
+Mar-31 10:59:04.613 [main] INFO  org.pf4j.DefaultPluginStatusProvider - Enabled plugins: []
+Mar-31 10:59:04.619 [main] INFO  org.pf4j.DefaultPluginStatusProvider - Disabled plugins: []
+Mar-31 10:59:04.624 [main] INFO  org.pf4j.DefaultPluginManager - PF4J version 3.4.1 in 'deployment' mode
+Mar-31 10:59:04.679 [main] INFO  org.pf4j.AbstractPluginManager - No plugins
+Mar-31 10:59:04.717 [main] DEBUG nextflow.scm.ProviderConfig - Using SCM config path: /home/josenimo/.nextflow/scm
+Mar-31 10:59:07.169 [main] DEBUG nextflow.scm.AssetManager - Git config: /home/josenimo/.nextflow/assets/labsyspharm/mcmicro/.git/config; branch: master; remote: origin; url: https://github.com/labsyspharm/mcmicro.git
+Mar-31 10:59:07.234 [main] DEBUG nextflow.scm.RepositoryFactory - Found Git repository result: [RepositoryFactory]
+Mar-31 10:59:07.253 [main] DEBUG nextflow.scm.AssetManager - Git config: /home/josenimo/.nextflow/assets/labsyspharm/mcmicro/.git/config; branch: master; remote: origin; url: https://github.com/labsyspharm/mcmicro.git
+Mar-31 10:59:09.730 [main] DEBUG nextflow.config.ConfigBuilder - Found config base: /home/josenimo/.nextflow/assets/labsyspharm/mcmicro/nextflow.config
+Mar-31 10:59:09.738 [main] DEBUG nextflow.config.ConfigBuilder - Parsing config file: /home/josenimo/.nextflow/assets/labsyspharm/mcmicro/nextflow.config
+Mar-31 10:59:09.787 [main] DEBUG nextflow.config.ConfigBuilder - Applying config profile: `standard`
+Mar-31 10:59:10.414 [main] DEBUG nextflow.cli.CmdRun - Applied DSL=2 from script declararion
+Mar-31 10:59:10.416 [main] INFO  nextflow.cli.CmdRun - Launching `https://github.com/labsyspharm/mcmicro` [reverent_shannon] DSL2 - revision: b9bd8cc3cb [master]
+Mar-31 10:59:10.419 [main] DEBUG nextflow.plugin.PluginsFacade - Plugins default=[]
+Mar-31 10:59:10.419 [main] DEBUG nextflow.plugin.PluginsFacade - Plugins resolved requirement=[]
+Mar-31 10:59:10.432 [main] DEBUG nextflow.secret.LocalSecretsProvider - Secrets store: /home/josenimo/.nextflow/secrets/store.json
+Mar-31 10:59:10.499 [main] DEBUG nextflow.secret.SecretsLoader - Discovered secrets providers: [nextflow.secret.LocalSecretsProvider@32f1fafe] - activable => nextflow.secret.LocalSecretsProvider@32f1fafe
+Mar-31 10:59:10.701 [main] DEBUG nextflow.Session - Session UUID: 6c8c0c52-5cd0-4487-a72a-d54743ce9928
+Mar-31 10:59:10.701 [main] DEBUG nextflow.Session - Run name: reverent_shannon
+Mar-31 10:59:10.702 [main] DEBUG nextflow.Session - Executor pool size: 12
+Mar-31 10:59:10.729 [main] DEBUG nextflow.util.ThreadPoolBuilder - Creating thread pool 'FileTransfer' minSize=10; maxSize=36; workQueue=LinkedBlockingQueue[10000]; allowCoreThreadTimeout=false
+Mar-31 10:59:10.802 [main] DEBUG nextflow.cli.CmdRun - 
+  Version: 22.10.3 build 5834
+  Created: 21-11-2022 21:37 UTC (22:37 CEST)
+  System: Linux 5.10.102.1-microsoft-standard-WSL2
+  Runtime: Groovy 3.0.13 on OpenJDK 64-Bit Server VM 11.0.17+8-post-Ubuntu-1ubuntu220.04
+  Encoding: UTF-8 (UTF-8)
+  Process: 798@CMP04477 [127.0.1.1]
+  CPUs: 12 - Mem: 12.2 GB (146.3 MB) - Swap: 4 GB (4 GB)
+Mar-31 10:59:10.884 [main] DEBUG nextflow.file.FileHelper - Can't check if specified path is NFS (1): /mnt/c/Users/jnimoca/Jose_BI/Projects---Repositories/9_Qupath_to_AnnData/QuPath_Annotation_to_AnnData/Test Data (MCMICRO Exemplar 001)/work
+
+Mar-31 10:59:10.885 [main] DEBUG nextflow.Session - Work-dir: /mnt/c/Users/jnimoca/Jose_BI/Projects---Repositories/9_Qupath_to_AnnData/QuPath_Annotation_to_AnnData/Test Data (MCMICRO Exemplar 001)/work [null]
+Mar-31 10:59:10.886 [main] DEBUG nextflow.Session - Script base path does not exist or is not a directory: /home/josenimo/.nextflow/assets/labsyspharm/mcmicro/bin
+Mar-31 10:59:10.931 [main] DEBUG nextflow.executor.ExecutorFactory - Extension executors providers=[]
+Mar-31 10:59:10.962 [main] DEBUG nextflow.Session - Observer factory: DefaultObserverFactory
+Mar-31 10:59:11.081 [main] DEBUG nextflow.cache.CacheFactory - Using Nextflow cache factory: nextflow.cache.DefaultCacheFactory
+Mar-31 10:59:11.119 [main] DEBUG nextflow.util.CustomThreadPool - Creating default thread pool > poolSize: 13; maxThreads: 1000
+Mar-31 10:59:11.532 [main] DEBUG nextflow.Session - Session start
+Mar-31 10:59:11.551 [main] DEBUG nextflow.Session - Using default localLib path: /home/josenimo/.nextflow/assets/labsyspharm/mcmicro/lib
+Mar-31 10:59:11.558 [main] DEBUG nextflow.Session - Adding to the classpath library: /home/josenimo/.nextflow/assets/labsyspharm/mcmicro/lib
+Mar-31 10:59:13.289 [main] DEBUG nextflow.script.ScriptRunner - > Launching execution
+Mar-31 10:59:13.626 [main] DEBUG nextflow.Nextflow - No such file: ./raw/ -- Skipping visit
+Mar-31 10:59:23.475 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+Mar-31 10:59:23.476 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Mar-31 10:59:23.492 [main] DEBUG nextflow.executor.Executor - [warm up] executor > local
+Mar-31 10:59:23.508 [main] DEBUG n.processor.LocalPollingMonitor - Creating local task monitor for executor 'local' > cpus=12; memory=12.2 GB; capacity=12; pollInterval=100ms; dumpInterval=5m
+Mar-31 10:59:23.790 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+Mar-31 10:59:23.791 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Mar-31 10:59:23.844 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+Mar-31 10:59:23.845 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Mar-31 10:59:23.903 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+Mar-31 10:59:23.903 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Mar-31 10:59:23.957 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+Mar-31 10:59:23.958 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Mar-31 10:59:23.963 [main] DEBUG nextflow.processor.TaskProcessor - Creating *combiner* operator for each param(s) at index(es): [0]
+Mar-31 10:59:24.018 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+Mar-31 10:59:24.018 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Mar-31 10:59:24.021 [main] DEBUG nextflow.processor.TaskProcessor - Creating *combiner* operator for each param(s) at index(es): [0]
+Mar-31 10:59:24.094 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+Mar-31 10:59:24.095 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Mar-31 10:59:24.160 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+Mar-31 10:59:24.161 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Mar-31 10:59:24.199 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+Mar-31 10:59:24.199 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Mar-31 10:59:24.242 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+Mar-31 10:59:24.243 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Mar-31 10:59:24.265 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+Mar-31 10:59:24.266 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Mar-31 10:59:24.276 [main] DEBUG nextflow.Session - Workflow process names [dsl2]: illumination, dearray:coreograph, coreograph, segmentation:worker, mcquant, ashlar, segmentation:s3seg, viz:autominerva, runTask, autominerva, segmentation:roadie:runTask, quantification:mcquant, showHelp, dearray:roadie:runTask, backsub, s3seg, worker, background:backsub, downstream:worker, registration:ashlar
+Mar-31 10:59:24.282 [main] DEBUG nextflow.Session - Igniting dataflow network (30)
+Mar-31 10:59:24.299 [PathVisitor-1] DEBUG nextflow.file.PathVisitor - files for syntax: glob; folder: ./illumination_profiles/; pattern: *; options: [:]
+Mar-31 10:59:24.321 [PathVisitor-3] DEBUG nextflow.file.PathVisitor - files for syntax: glob; folder: ./registration/; pattern: *.{ome.tiff,ome.tif,tif,tiff,btf}; options: [:]
+Mar-31 10:59:24.327 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > illumination
+Mar-31 10:59:24.331 [PathVisitor-1] DEBUG nextflow.file.PathVisitor - No such file: ./illumination_profiles/ -- Skipping visit
+Mar-31 10:59:24.334 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > registration:ashlar
+Mar-31 10:59:24.335 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > background:backsub
+Mar-31 10:59:24.336 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > dearray:coreograph
+Mar-31 10:59:24.344 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > dearray:roadie:runTask
+Mar-31 10:59:24.345 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > dearray:roadie:runTask
+Mar-31 10:59:24.348 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > segmentation:roadie:runTask
+Mar-31 10:59:24.351 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > segmentation:roadie:runTask
+Mar-31 10:59:24.353 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > segmentation:worker
+Mar-31 10:59:24.354 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > segmentation:s3seg
+Mar-31 10:59:24.354 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > quantification:mcquant
+Mar-31 10:59:24.355 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > downstream:worker
+Mar-31 10:59:24.355 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > viz:autominerva
+Mar-31 10:59:24.356 [main] DEBUG nextflow.script.ScriptRunner - > Awaiting termination 
+Mar-31 10:59:24.358 [main] DEBUG nextflow.Session - Session await
+Mar-31 10:59:24.835 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Mar-31 10:59:24.842 [Task submitter] INFO  nextflow.Session - [b9/1bbcfb] Submitted process > segmentation:worker (unmicst-1)
+Mar-31 11:01:52.786 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 3; name: segmentation:worker (unmicst-1); status: COMPLETED; exit: 0; error: -; workDir: /mnt/c/Users/jnimoca/Jose_BI/Projects---Repositories/9_Qupath_to_AnnData/QuPath_Annotation_to_AnnData/Test Data (MCMICRO Exemplar 001)/work/b9/1bbcfb4a16c69f8f276dac1dd6434a]
+Mar-31 11:01:54.250 [Task monitor] DEBUG nextflow.processor.TaskProcessor - Process segmentation:worker > Skipping output binding because one or more optional files are missing: fileoutparam<1>
+Mar-31 11:01:54.438 [Task monitor] DEBUG nextflow.util.ThreadPoolBuilder - Creating thread pool 'PublishDir' minSize=10; maxSize=36; workQueue=LinkedBlockingQueue[10000]; allowCoreThreadTimeout=false
+Mar-31 11:01:54.650 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Mar-31 11:01:54.654 [Task submitter] INFO  nextflow.Session - [99/eca9c4] Submitted process > segmentation:s3seg (1)
+Mar-31 11:02:32.876 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 4; name: segmentation:s3seg (1); status: COMPLETED; exit: 0; error: -; workDir: /mnt/c/Users/jnimoca/Jose_BI/Projects---Repositories/9_Qupath_to_AnnData/QuPath_Annotation_to_AnnData/Test Data (MCMICRO Exemplar 001)/work/99/eca9c4abee979a64777ead267b3aea]
+Mar-31 11:02:33.147 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Mar-31 11:02:33.149 [Task submitter] INFO  nextflow.Session - [4c/f56033] Submitted process > quantification:mcquant (1)
+Mar-31 11:02:49.959 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 5; name: quantification:mcquant (1); status: COMPLETED; exit: 0; error: -; workDir: /mnt/c/Users/jnimoca/Jose_BI/Projects---Repositories/9_Qupath_to_AnnData/QuPath_Annotation_to_AnnData/Test Data (MCMICRO Exemplar 001)/work/4c/f5603330c8abf20481d06e8b49b4e1]
+Mar-31 11:02:50.063 [main] DEBUG nextflow.Session - Session await > all processes finished
+Mar-31 11:02:50.163 [main] DEBUG nextflow.Session - Session await > all barriers passed
+Mar-31 11:02:50.195 [main] DEBUG nextflow.util.ThreadPoolManager - Thread pool 'PublishDir' shutdown completed (hard=false)
+Mar-31 11:02:50.332 [main] DEBUG nextflow.trace.WorkflowStatsObserver - Workflow completed > WorkflowStats[succeededCount=3; failedCount=0; ignoredCount=0; cachedCount=0; pendingCount=0; submittedCount=0; runningCount=0; retriesCount=0; abortedCount=0; succeedDuration=3m 23s; failedDuration=0ms; cachedDuration=0ms;loadCpus=0; loadMemory=0; peakRunning=1; peakCpus=1; peakMemory=0; ]
+Mar-31 11:02:50.563 [main] DEBUG nextflow.cache.CacheDB - Closing CacheDB done
+Mar-31 11:02:50.695 [main] DEBUG nextflow.util.ThreadPoolManager - Thread pool 'FileTransfer' shutdown completed (hard=false)
+Mar-31 11:02:50.698 [main] DEBUG nextflow.script.ScriptRunner - > Execution complete -- Goodbye

@@ -1,0 +1,106 @@
+{
+  "version": "0.4.1",
+  "createTimestamp": 1680253482978,
+  "modifyTimestamp": 1680253482978,
+  "uri": "file:/C:/Users/jnimoca/Jose_BI/Projects---Repositories/9_Qupath_to_AnnData/QuPath_Annotation_to_AnnData/Test%20Data%20(MCMICRO%20Exemplar%20001)/Test_QuPath_Project/project.qpproj",
+  "lastID": 1,
+  "images": [
+    {
+      "serverBuilder": {
+        "builderType": "uri",
+        "providerClassName": "qupath.imagej.images.servers.ImageJServerBuilder",
+        "uri": "file:/C:/Users/jnimoca/Jose_BI/Projects---Repositories/9_Qupath_to_AnnData/QuPath_Annotation_to_AnnData/Test%20Data%20(MCMICRO%20Exemplar%20001)/registration/Exemplar001_subset.tif",
+        "args": [],
+        "metadata": {
+          "name": "Exemplar001_subset.tif",
+          "width": 1833,
+          "height": 957,
+          "sizeZ": 1,
+          "sizeT": 1,
+          "channelType": "DEFAULT",
+          "isRGB": false,
+          "pixelType": "UINT16",
+          "levels": [
+            {
+              "downsample": 1.0,
+              "width": 1833,
+              "height": 957
+            }
+          ],
+          "channels": [
+            {
+              "name": "c:1/12 - 20220912_MCMICRO_Exemplar001.ome.tif #1",
+              "color": -16776961
+            },
+            {
+              "name": "c:2/12 - 20220912_MCMICRO_Exemplar001.ome.tif #1",
+              "color": -16711936
+            },
+            {
+              "name": "c:3/12 - 20220912_MCMICRO_Exemplar001.ome.tif #1",
+              "color": -16776961
+            },
+            {
+              "name": "c:4/12 - 20220912_MCMICRO_Exemplar001.ome.tif #1",
+              "color": -65536
+            },
+            {
+              "name": "c:5/12 - 20220912_MCMICRO_Exemplar001.ome.tif #1",
+              "color": -16719648
+            },
+            {
+              "name": "c:6/12 - 20220912_MCMICRO_Exemplar001.ome.tif #1",
+              "color": -65312
+            },
+            {
+              "name": "c:7/12 - 20220912_MCMICRO_Exemplar001.ome.tif #1",
+              "color": -13312
+            },
+            {
+              "name": "c:8/12 - 20220912_MCMICRO_Exemplar001.ome.tif #1",
+              "color": -16711698
+            },
+            {
+              "name": "c:9/12 - 20220912_MCMICRO_Exemplar001.ome.tif #1",
+              "color": -65298
+            },
+            {
+              "name": "c:10/12 - 20220912_MCMICRO_Exemplar001.ome.tif #1",
+              "color": -3342592
+            },
+            {
+              "name": "c:11/12 - 20220912_MCMICRO_Exemplar001.ome.tif #1",
+              "color": -15948046
+            },
+            {
+              "name": "c:12/12 - 20220912_MCMICRO_Exemplar001.ome.tif #1",
+              "color": -914297
+            }
+          ],
+          "pixelCalibration": {
+            "pixelWidth": {
+              "value": 0.6500002275000796,
+              "unit": "µm"
+            },
+            "pixelHeight": {
+              "value": 0.6500002275000796,
+              "unit": "µm"
+            },
+            "zSpacing": {
+              "value": 1.0,
+              "unit": "µm"
+            },
+            "timeUnit": "SECONDS",
+            "timepoints": []
+          },
+          "preferredTileWidth": 1833,
+          "preferredTileHeight": 957
+        }
+      },
+      "entryID": 1,
+      "randomizedName": "defac9a3-c9f9-4e71-b85e-509670221071",
+      "imageName": "Exemplar001_subset.tif",
+      "metadata": {}
+    }
+  ]
+}

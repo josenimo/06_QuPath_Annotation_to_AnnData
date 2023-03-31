@@ -1,0 +1,16 @@
+{
+  "pathClasses": [
+    {
+      "name": "Immune_Cluster",
+      "color": -13160939
+    },
+    {
+      "name": "Epithelial_Cluster",
+      "color": -13968605
+    },
+    {
+      "name": "Ignore_from_analysis",
+      "color": -15537134
+    }
+  ]
+}
