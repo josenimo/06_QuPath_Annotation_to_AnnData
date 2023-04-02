@@ -34,7 +34,7 @@ docker run \
     kbestak/ann_to_quant:0.1.0 \
     python run_annotation.py \
     --in-quantification ../data/quantification.csv \
-    --in-geojson ../data/annotations.geojson \
+    --in-annotation ../data/annotations.geojson \
     --out ../output/quantification.csv \
     --qc ../output/qc
 ```
