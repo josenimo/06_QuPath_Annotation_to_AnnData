@@ -13,7 +13,7 @@ Potential issues:
 1. What about a cell being inside two ROIs? 
 
 
-
+# QuPath_Annotation_to_Quantification_file
 Running with Docker:
 * inputs:
     * quantification file (csv) with columns: X_centroid, Y_centroid
