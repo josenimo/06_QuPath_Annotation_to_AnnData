@@ -27,9 +27,9 @@ docker run \
     -v /path/to/outputs:/output \
     kbestak/ann_to_quant:0.1.0 \
     python run_annotation.py \
-    --in-quantification /data/quantification.csv \
-    --in-geojson /data/annotations.geojson \
-    --out /output/quantification.csv \
-    --qc /output/qc
+    --in-quantification ../data/quantification.csv \
+    --in-geojson ../data/annotations.geojson \
+    --out ../output/quantification.csv \
+    --qc ../output/qc
 ```
 Provided Dockerfile (replace CRLF with LF) is for building the image locally from the environment.yml file (replace CRLF with LF).
