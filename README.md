@@ -21,6 +21,12 @@ Running with Docker:
 * outputs:
     * quantification file with new column: ROI
     * optional qc png files for each ROI
+    
+Pull docker image:
+```
+docker pull kbestak/ann_to_quant:0.1.0
+```
+Run command:
 ```
 docker run \
     -v /path/to/inputs:/data \
