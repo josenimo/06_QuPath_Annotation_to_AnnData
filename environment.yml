@@ -1,0 +1,7 @@
+name: Ann_to_Quant
+channels:
+ - defaults
+dependencies:
+ - libgcc-ng
+ - python=3.8.16
+ - geopandas=0.12.2
